@@ -1,0 +1,13 @@
+name : 연습
+
+on:
+  push:
+    branches:main
+
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    stes:
+      -name: 출력하기
+       run: echo 'gitbuc actions'
