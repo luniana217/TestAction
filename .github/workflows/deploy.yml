@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     stes:
       -name: 출력하기
-       run: echo 'gitbuc actions'
+       run: echo 'github actions'
