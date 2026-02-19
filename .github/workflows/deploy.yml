@@ -30,4 +30,4 @@ jobs:
           
 
       - name: Run python
-        run: python src/test.py
+        run: python app.py
