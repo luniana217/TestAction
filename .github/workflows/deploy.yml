@@ -8,6 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    stes:
-      -name: 출력하기
-       run: echo 'github actions'
+  steps:
+    -name: 출력하기
+    run: echo 'github actions' 
